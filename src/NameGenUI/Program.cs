@@ -1,15 +1,9 @@
 using NameGenCore;
 INameGen nameGenerator = new OneNameGenerator();
 
-Console.WriteLine("");
-string times = Console.ReadLine();
+INameGen JNamesGenerator = new JNamesGenerator();
 
-
-
-for (int i = 0; i < int.Parse(times); i++)
-{
-    Console.WriteLine(nameGenerator.ToString());
-}
+JNamesGenerator.NameToString();
 
 
 
