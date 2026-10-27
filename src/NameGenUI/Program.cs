@@ -1,2 +1,2 @@
-﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("Hej vad gör ni?");
+Console.WriteLine("hej jag heter max och älskar silicon surfning");
+
