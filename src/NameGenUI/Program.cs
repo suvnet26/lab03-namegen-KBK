@@ -2,8 +2,10 @@ using NameGenCore;
 INameGen nameGenerator = new OneNameGenerator();
 INameGen petGen = new PetersNameGenerator();
 
-//Console.WriteLine("");
-//string times = Console.ReadLine();
+INameGen christoffersNameGen = new VIldaDjur();
+INameGen JNamesGenerator = new JNamesGenerator();
+
+JNamesGenerator.NameToString();
 
 // int pick = int.Parse(times);
 
@@ -12,4 +14,4 @@ INameGen petGen = new PetersNameGenerator();
 //     Console.WriteLine(nameGenerator.ToString());
 // }
 
-Console.WriteLine(petGen.NameToString());
+Console.WriteLine(christoffersNameGen.NameToString());
