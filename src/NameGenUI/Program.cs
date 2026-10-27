@@ -1,8 +1,17 @@
 using NameGenCore;
-INameGen max = new MaxRandomNameGen();
-string times = Console.ReadLine();
-for (int i = 0; i < int.Parse(times); i++)
-{
-    Console.WriteLine(max.NameToString());
-}
+INameGen nameGenerator = new OneNameGenerator();
+INameGen petGen = new PetersNameGenerator();
 
+INameGen christoffersNameGen = new VIldaDjur();
+INameGen JNamesGenerator = new JNamesGenerator();
+
+JNamesGenerator.NameToString();
+
+// int pick = int.Parse(times);
+
+// for (int i = 0; i < pick ; i++)
+// {
+//     Console.WriteLine(nameGenerator.ToString());
+// }
+
+Console.WriteLine(christoffersNameGen.NameToString());
