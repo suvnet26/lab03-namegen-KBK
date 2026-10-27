@@ -10,7 +10,7 @@ public class Class1
 
 public interface INameGen
 {
-    string NameToString();
+    public string NameToString();
 }
 
 public class OneNameGenerator : INameGen
@@ -41,6 +41,13 @@ public class JNamesGenerator : INameGen
 }
 
 
+public class PetersNameGenerator : INameGen
+{
+    public string NameToString()
+    {
+        return $"You are borg designation: {Random.Shared.Next(1, 10)} of {Random.Shared.Next(1, 10)}";
+    }
+}
 
 public class VIldaDjur : INameGen
 {
