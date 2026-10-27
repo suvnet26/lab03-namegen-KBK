@@ -1,2 +1,2 @@
-
-System.Console.WriteLine("puss");
+using NameGenCore;
+INameGen nameGenerator = new OneNameGenerator();
