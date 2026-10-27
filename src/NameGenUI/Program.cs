@@ -1,15 +1,8 @@
 using NameGenCore;
-INameGen nameGenerator = new OneNameGenerator();
-
-Console.WriteLine("");
+INameGen max = new MaxRandomNameGen();
 string times = Console.ReadLine();
-
-
-
 for (int i = 0; i < int.Parse(times); i++)
 {
-    Console.WriteLine(nameGenerator.ToString());
+    Console.WriteLine(max.NameToString());
 }
-
-
 
