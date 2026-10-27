@@ -23,7 +23,7 @@ public class OneNameGenerator : INameGen
 }
 public class JNamesGenerator : INameGen
 {
-    private static readonly string[] jnames = {"Johannes", "Johan","Jurgurt","Jeter","Jax","Jistroffer"};
+    private static readonly string[] jnames = { "Johannes", "Johan", "Jurgurt", "Jeter", "Jax", "Jistroffer" };
 
     Random random = new Random();
 
@@ -59,5 +59,6 @@ public class VIldaDjur : INameGen
     public string NameToString()
     {
         return vildaDjur[Random.Shared.Next(vildaDjur.Count)];
+        System.Console.WriteLine("test");
     }
 }
