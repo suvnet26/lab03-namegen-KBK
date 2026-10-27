@@ -1,2 +1,2 @@
 
-System.Console.WriteLine("HEJ MAX, JAG MED");
+System.Console.WriteLine("puss");
